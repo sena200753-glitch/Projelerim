@@ -1,0 +1,36 @@
+#Sena Aydın
+#300125029
+
+urunler = []
+
+urun1 = {"ad": "Peynir", "fiyat": 55, "stok": 8}
+urun2 = {"ad": "Süt", "fiyat": 25, "stok": 3}
+urun3 = {"ad": "Yoğurt", "fiyat": 65, "stok": 15}
+
+
+urunler.append(urun1)
+urunler.append(urun2)
+urunler.append(urun3)
+
+print(" ÜRÜN LİSTESİ ")
+
+
+for urun in urunler:
+    print(f"Ürün Adı: {urun['ad']}")
+    print(f"Fiyat: {urun['fiyat']} TL")
+    print(f"Stok: {urun['stok']} adet")
+    print("---------------------")
+
+print("\n KRİTİK STOK KONTROLÜ ")
+
+for urun in urunler:
+    if urun["stok"] < 5:
+        print(f" {urun['ad']} ürünü kritik stok seviyesinde!")
+
+toplam_deger = 0
+
+for urun in urunler:
+    toplam_deger += urun["fiyat"] * urun["stok"]
+
+print("\n TOPLAM STOK DEĞERİ ")
+print(f"Toplam stok değeri: {toplam_deger} TL")
