@@ -1,5 +1,3 @@
-#Sena Aydın
-#300125029
 
 karakterler = [
     {"isim": "Aragorn", "sinif": "savasci", "seviye": 15, "hp": 220, "altin": 500},
