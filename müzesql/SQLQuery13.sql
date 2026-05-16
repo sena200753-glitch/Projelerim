@@ -1,1 +1,0 @@
-SELECT * FROM eser WHERE donem = 'Osmanlı';
