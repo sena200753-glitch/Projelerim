@@ -1,0 +1,1 @@
+SELECT * FROM eser WHERE deger_puani > 90;
