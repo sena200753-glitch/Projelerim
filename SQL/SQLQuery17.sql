@@ -1,0 +1,1 @@
+SELECT DISTINCT donem FROM eser;

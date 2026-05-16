@@ -1,0 +1,1 @@
+SELECT TOP 3 eser_adi, deger_puani FROM eser ORDER BY deger_puani DESC;
